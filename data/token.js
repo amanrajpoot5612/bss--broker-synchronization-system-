@@ -1,6 +1,6 @@
 const tokenData = {
   "broker": "zerodha",
-  "access_token": ""
+  "access_token": "rWujVYb52wYVZQbcIukpBk2TZXPFMyHu"
 }
 
 

@@ -1,15 +1,15 @@
-function zeordhaAdaptor({ orders = [], positions = { net: [] }, holdings = [] }) {
+function zerodhaAdaptor({ orders = [], positions = { net: [] }, holdings = [] }) {
 
     // orders mapping
     const normalizedOrders = orders.map(order => ({
-        ClOrdID: o.order_id || `ORD-${Date.now()}`,
-        Symbol: o.trading_symbol,
-        Side: o.transaction_type === "BUY" ? "Buy" : "Sell",
-        OrderQty: o.quantity,
-        Price: o.price || o.average_price || 0,
-        OrdType: o.order_type || "Limit",
-        TransactTime: o.timestamp || new Date().toISOString(),
-        OrdStatus: o.status || "New"
+        ClOrdID: order.order_id || `ORD-${Date.now()}`,
+        Symbol: order.trading_symbol,
+        Side: order.transaction_type === "BUY" ? "Buy" : "Sell",
+        OrderQty: order.quantity,
+        Price: order.price || order.average_price || 0,
+        OrdType: order.order_type || "Limit",
+        TransactTime: order.timestamp || new Date().toISOString(),
+        OrdStatus: order.status || "New"
     }));
 
     // positions mapping
@@ -44,4 +44,6 @@ function zeordhaAdaptor({ orders = [], positions = { net: [] }, holdings = [] })
         holdings: normalizedHoldings
     }
 }
+
+export { zerodhaAdaptor };
 
