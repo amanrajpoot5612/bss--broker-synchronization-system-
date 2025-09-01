@@ -1,0 +1,20 @@
+[
+  {
+    "tradingsymbol": "INFY",
+    "exchange": "NSE",
+    "quantity": 20,
+    "average_price": 1450,
+    "last_price": 1500,
+    "pnl": 1000,
+    "instrument_token": 408065
+  },
+  {
+    "tradingsymbol": "TCS",
+    "exchange": "NSE",
+    "quantity": 10,
+    "average_price": 3200,
+    "last_price": 3300,
+    "pnl": 1000,
+    "instrument_token": 2953217
+  }
+]

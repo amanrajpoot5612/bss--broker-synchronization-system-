@@ -1,0 +1,24 @@
+{
+  "net": [
+    {
+      "tradingsymbol": "INFY",
+      "exchange": "NSE",
+      "quantity": 20,
+      "average_price": 1450,
+      "last_price": 1500,
+      "pnl": 1000,
+      "day_buy_quantity": 10,
+      "day_sell_quantity": 5
+    }
+  ],
+  "day": [
+    {
+      "tradingsymbol": "INFY",
+      "exchange": "NSE",
+      "quantity": 5,
+      "average_price": 1500,
+      "last_price": 1500,
+      "pnl": 0
+    }
+  ]
+}

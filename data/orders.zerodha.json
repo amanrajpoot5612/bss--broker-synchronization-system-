@@ -1,0 +1,29 @@
+[
+  {
+    "order_id": "1234567890",
+    "exchange_order_id": "9876543210",
+    "status": "COMPLETE",
+    "trading_symbol": "INFY",
+    "exchange": "NSE",
+    "order_type": "LIMIT",
+    "product": "MIS",
+    "quantity": 10,
+    "filled_quantity": 10,
+    "price": 1500,
+    "average_price": 1500,
+    "transaction_type": "BUY",
+    "order_timestamp": "2025-09-01T09:30:00+05:30"
+  },
+  {
+    "order_id": "1234567891",
+    "status": "OPEN",
+    "trading_symbol": "RELIANCE",
+    "exchange": "NSE",
+    "order_type": "MARKET",
+    "product": "CNC",
+    "quantity": 5,
+    "filled_quantity": 0,
+    "transaction_type": "SELL",
+    "order_timestamp": "2025-09-01T10:00:00+05:30"
+  }
+]

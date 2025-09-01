@@ -1,0 +1,10 @@
+{
+  "ClOrdID": "12345",          
+  "Symbol": "INFY",            
+  "Side": "Buy",               
+  "OrderQty": 10,              
+  "Price": 1500.0,             
+  "OrdType": "Limit",          
+  "TransactTime": "2025-09-01T09:30:00Z", 
+  "OrdStatus": "Filled"        
+}

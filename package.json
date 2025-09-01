@@ -1,0 +1,12 @@
+{
+  "name": "broker-integration",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "dotenv": "^17.2.1",
+    "env": "^0.0.2",
+    "kiteconnect": "^5.1.0",
+    "node-fetch": "^3.3.2"
+  }
+}
