@@ -1,6 +1,7 @@
 import { KiteConnect } from "kiteconnect";
 import { API_KEY } from "./secret.js";
 import tokenData from "../data/token.js";
+import { normalizedData } from "./tests/zerodhaTest.js";
 
 async function main() {
     token();
@@ -8,7 +9,8 @@ async function main() {
     access_token: tokenData.access_token
  });
     demoFunctions(kc);
-
+    console.log("Normalized Data from tests/zerodhaTest.js:", normalizedData);
+    
 }
 const token = () => {
     try {
